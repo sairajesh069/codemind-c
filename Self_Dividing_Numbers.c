@@ -3,8 +3,7 @@
 int main()
 {
     int start, end;
-    scanf("%d
-%d", &start, &end);
+    scanf("%d\n%d", &start, &end);
     for(int i = start; i <= end; i++){
     	if(i % 10 == 0){
     		continue;
